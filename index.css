@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /* Header start */
 .nav{
     display: flex;
@@ -352,10 +356,64 @@ li>a{
     background: #FFF;
 
 }
+
+.lmsh3{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 40px;
+    padding-left: 40px;
+
+}
+
+.lmsp{
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 5px;
+    padding-left: 40px;
+
+}
 #hr{
     width: 393px;
     height: 1px;
     background: rgba(19, 19, 24, 0.10);
+    margin-top: 24px;
+    margin-left: 40px;
+}
+
+.lmsi1{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 24px;
+    margin-left: 40px;
+    border: 0px;
+
+
+}
+
+.lmsi2{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 16px;
+    margin-left: 40px;
+    border: 0px;
+
+
+
 }
 
 .lmsbutton{
@@ -371,6 +429,9 @@ li>a{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-top: 24px;
+    margin-left: 40px;
+    border: 0px;
 }
 .lastmainsection2{
     width: 672px;
@@ -416,3 +477,78 @@ li>a{
     line-height: normal;
 
 }
+/* footer */
+footer{
+    margin-top: 100px;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-name-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+    
+}
+
+#footerlogo{
+    width: 40px;
+    height: 46.673px;
+    flex-shrink: 0;
+
+}
+
+#footername1{
+    margin-left: 16px;
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+#footername2{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.footerp{
+    margin-top: 15px;
+    padding-left: 530px;
+    width: 300px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+#sociallogo{
+    margin-top: 32px;
+    padding-left: 585px;
+    
+}
+
+#lhr{
+    margin-top: 50px;
+    margin-left: 284px;
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.copy{
+    margin-top: 50px;
+    padding-left: 600px;
+}
+
+
