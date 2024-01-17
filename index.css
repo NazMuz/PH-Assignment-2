@@ -665,4 +665,263 @@ footer{
     padding-left: 600px;
 }
 
+/* responsive nav */
+
+@media screen and (max-width:600px) {
+    #logo{
+        width: 28.724px;
+        height: 33.516px;
+        flex-shrink: 0;
+        padding-left: 20px;
+        padding-top: 18px;
+    }
+    #name1{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        padding-top: 19px;
+        margin-left: 9.95px;
+    }
+    #name2{
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .ul1{
+        display: none;
+        
+    }
+    
+    .banner{
+        width: 540px;
+        height: 550px;
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Group 13 (1) (1) (4).png') ;
+
+    }
+
+    .bh3{
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;   
+        line-height: normal;
+
+    }
+
+    .bp{
+        width: 304px;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px; 
+
+    }
+
+    .banner-input{
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        position: relative;
+        right: 75px;
+    }
+
+    #wherego{
+        width: 250px;
+        height: 52px;
+        flex-shrink: 0;
+        padding-left: 36px;
+        margin-left: 4px;
+
+    }
+    #select1{
+        width: 280px;
+        height: 52px;
+        flex-shrink: 0;
+        padding-left: 36px;
+        margin-left: 7px;
+    }
+    #select2{
+        width: 280px;
+        height: 52px;
+        flex-shrink: 0;
+        padding-left: 36px;
+        margin-left: 7px;
+
+    }
+
+    .btn{
+        width: 280px;
+        height: 52px;
+        flex-shrink: 0;
+        margin-left: 7px;
+    }
+
+    .main1{
+        flex-direction: column;
+
+    }
+    #plan{
+        position: relative;
+        right: 41px;
+    }
+
+    #m2textP{
+        width: 309px;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+
+    }
+
+    .row1{
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .row2{
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+ 
+     #img3{
+        height: 300px;
+        flex-shrink: 0;
+    }
+
+    #img5{
+        height: 300px;
+        flex-shrink: 0;
+    } 
+
+    .row3{
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+    #img6{
+        height: 300px;
+        flex-shrink: 0;
+
+    }
+
+    .m3p{
+        width: 309px;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .m3d2{
+        flex-direction: column;
+
+    }
+    .m3s1{
+        margin-left: 40px;
+        width: 520px;
+
+    }
+
+    .m3s2{
+        margin-left: 40px;
+        width: 520px;
+
+
+    }
+    .m3d3{
+        margin-right: 40px;
+        width: 520px;
+        height: 300px ;
+
+    }
+
+    .lastmainsection{
+        flex-direction: column;
+    }
+
+    .lastmainsection1{
+        position: relative;
+        left: 65px;
+    }
+
+    .lastmainsection2{
+        margin: 0px 40px;
+        width: 525px;
+    }
+
+    .box{
+        width: 270px; 
+        left: 240px;
+        top: 260px;
+        transform: rotate('-21.008deg');
+
+    }
+ .footerp{
+    position: relative;
+    right: 350px;
+    width: 287px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+ }
+
+ #sociallogo{
+    position: relative;
+    right: 350px;
+
+ }
+
+ #lhr{
+    width: 335px;
+    height: 1px;
+    position: relative;
+    right: 120px;
+ }
+
+ .copy{
+    color: #131318;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 255px;
+ }
+
+    
+}
 
